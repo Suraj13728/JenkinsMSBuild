@@ -22,7 +22,7 @@ namespace GitApplication.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page. Updated";
 
             return View();
         }
